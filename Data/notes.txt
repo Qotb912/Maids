@@ -1,0 +1,16 @@
+CurrentItemCountry
+CurrentItemGender
+CurrentItemName
+CurrentItemAddress
+CurrentItemBirthday
+CurrentItemPhone
+CurrentItemPassword
+CurrentItemCountryCode
+CurrentItemOccupation
+CurrentItemCompany
+CurrentItemFirstName
+
+
+ID,Gender,Country,First Name,Last Name,Birthday,Address,Phone,Country Code,Company,Occupation,Password
+
+{ jObjResBody("id").ToString(), jObjResBody("CurrentItemGender").ToString(), jObjResBody("CurrentItemCountry").ToString(), io_Config("CurrentItemFirstName").ToString(), jObjResBody("CurrentItemName").ToString().Replace(io_Config("CurrentItemFirstName").ToString(),""), jObjResBody("CurrentItemBirthday").ToString(), jObjResBody("CurrentItemAddress").ToString(), jObjResBody("CurrentItemPhone").ToString(), jObjResBody("CurrentItemCountryCode").ToString(), jObjResBody("CurrentItemCompany").ToString(), jObjResBody("CurrentItemOccupation").ToString(), jObjResBody("CurrentItemPassword").ToString() }

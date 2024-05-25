@@ -1,0 +1,33 @@
+Key,Value,Note
+emailName,mahmoud2017170397@cis.asu.edu.eg,email name that the robot will use
+emailPassword,ZXcvbnm_123,email password
+hidemeUsername,MahmoudQotb1,username of hide.me account to signup or login
+hidemePassword,ZXcvbnm_123,password of hide.me account
+outputFolder,./output,the output folder thatt contains the process result files
+screenshotsFolder,./output/screenshots,this folder contains the error screenshots
+myAccount,mahmoud2017170397@cis.asu.edu.eg,
+receiverEmails,,receiver's emails that you should send the output files to them
+emailSubject,maids.cc RPA test,
+attachedExcelFileName,test.xlsx,
+attachedExcelFolderPath,./Data/output,
+numberOfTopMailSelected,2,
+waitingPeriodTime,0:00:20,
+TotalWaitingTime,0:02:00,
+attachedTestDataSheetName,Sheet1,
+,,
+sessionOutputPath,./Data/Sessions,
+listSummaryColumnsName,"Time,Process Name,Error Message,Exception,ScreenShot",
+,,
+HideMeUrl,https://hide.me/en/,
+HideMeLoginUrl,https://member.hide.me/en/user/login,
+HideMeRegisterUrl,https://member.hide.me/en/user/register,
+HideMeDashbordUrl,https://member.hide.me/en/,
+HideMePendingUrl,https://member.hide.me/en/pending,
+mailFilterDomain,@hide.me,
+NewAccountRegistrationSubject,Activate Your hide.me VPN Account Today,
+accountRegistrationSubject,Account Registration Attempt,
+resetPasswordSubject,Request to Reset Password,
+hideMeLoginNumberOfRetry,3,
+,,
+FakeNameGenratorUrl,https://www.fakenamegenerator.com/,
+resultsColumnsName,"ID,Gender,Country,First Name,Last Name,Birthday,Address,Phone,Country Code,Company,Occupation,Password",

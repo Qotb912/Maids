@@ -1,0 +1,610 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_2",
+        "strConfigFilePath&Sequence_2",
+        "StartTimeSeq&Sequence_2",
+        "strSeqName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/mail/ReceiveMailSaveAttachments.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "in_boolFirstCheck",
+        "io_listMailMessages"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ProjectStructure/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ProjectStructure/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "StartTimeSeq&Sequence_2",
+        "strSeqName&Sequence_2",
+        "dt_ConfigDT&Sequence_3",
+        "AssetValue&Sequence_4",
+        "listSummaryColumnsName&Sequence_5",
+        "dtCurrentSessionSummary&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ProjectStructure/KillAllProcess.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ProjectStructure/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtTempResData&Sequence_34",
+        "boolResultFileExists&Sequence_38",
+        "lTempResData&Sequence_36",
+        "datatable&Sequence_2",
+        "jObjResBody&Sequence_34",
+        "strCurrentItemReqBody&Sequence_35",
+        "boolEnterTextCheckCorrect&Sequence_28",
+        "strHumanVerify&Sequence_26",
+        "strInnerTextAttribute&Sequence_24",
+        "intStartIndex&Sequence_22",
+        "dtTestData&Sequence_20",
+        "ItemsData&Sequence_20",
+        "StartTimeSeq&Sequence_2",
+        "strSeqName&Sequence_2",
+        "listMailMessages&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolUsingMail&Sequence_26",
+        "strHideMeResetUrl&Sequence_20",
+        "listRestPasswordHideMeMails&Sequence_20",
+        "strHideMePendingUrl&Sequence_25",
+        "strNewPasswordHideMeUrl&Sequence_28",
+        "strRegstrationUrl&Sequence_2",
+        "listMailResult&Sequence_2",
+        "strInnerTextAttribute&Sequence_5",
+        "strHumanVerify&Sequence_2",
+        "Config&Sequence_2",
+        "strConfigFilePath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "temp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/navigate/openMyAccount.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "boolMyAccountExists&Sequence_4",
+        "boolGetHideMeButtonExists&Sequence_5",
+        "strLoginUrl&Sequence_12",
+        "boolSignInExists&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strHideMeUrl",
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/navigate/openHideMeSignup.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strLoginUrl&Sequence_1",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "boolSignInExists&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/utilities/LogExceptions.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_SammaryPath&Sequence_1",
+        "dtCurrentSessionSummary&Sequence_1",
+        "listSummaryRowData&Sequence_1",
+        "strScreenshotFullName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Exception",
+        "in_strSequenceName",
+        "in_strErrorMessage",
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/navigate/openHideMeInBrowser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "urlWebResponse&Sequence_8",
+        "urlException&Sequence_8",
+        "boolGetHideMeButtonExists&Sequence_7",
+        "boolGetHideMeButtonExists&Sequence_26"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strHideMeUrl",
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/write/WriteMailInSignUpPage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strVisibleInnerText&Sequence_20",
+        "strHideMePendingUrl&Sequence_20",
+        "strExistedMail&Sequence_20",
+        "strHideMeRegisterUrl&Sequence_1",
+        "boolSignUpExists&Sequence_5",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/action/register.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strHideMeRegisterUrl&Sequence_1",
+        "strExistedMail&Sequence_4",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/navigate/logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strHideMeDashbordUrl&Sequence_1",
+        "strHideUserName&Sequence_1",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/write/writeLoginData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strLoginUrl&Sequence_1",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/checkelementexists/checkSignInTitle.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_24",
+        "tSeqStartTime&Sequence_24",
+        "boolSignInExists&Sequence_24"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "in_strLoginUrl",
+        "in_strParentSeq"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/mail/receive/GetCustomerMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFilterMail&Sequence_4",
+        "strSeqName&Sequence_4",
+        "tSeqStartTime&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "in_str_FilterDomain",
+        "in_str_MyAccount",
+        "out_list_MailMessage",
+        "in_int_NumberOfTopSelected",
+        "in_str_FilterSubject"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/mail/other/SaveAttachment.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_7",
+        "tSeqStartTime&Sequence_7",
+        "str_AttachmentPath&Sequence_5",
+        "str_FileData&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "in_MailsList"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/write/writeActivateHideMeAccountData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolCheckTitle&Sequence_15",
+        "strSeqName&Sequence_12",
+        "tSeqStartTime&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strRegstrationUrl",
+        "Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/action/createAccount.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_14",
+        "tSeqStartTime&Sequence_14"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "strRegstrationUrl"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/checkelementexists/CheckUserLogIn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strHideMeDashbordUrl&Sequence_10",
+        "strHideUserName&Sequence_10",
+        "strSeqName&Sequence_10",
+        "tSeqStartTime&Sequence_10",
+        "boolCheckHideMeUserName&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strSeqName",
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/mail/other/waitReceiveTestMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "waitingTime&Sequence_2",
+        "strStapName&StateMachine_1",
+        "startTimeSeq&StateMachine_1",
+        "boolSupPageExists&State_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "in_strTotalWaitingTime",
+        "in_strWaitingTime",
+        "in_strMyAccount",
+        "in_intNumberOfTopSelectedMail",
+        "in_strFilterSubject",
+        "in_strFilterDomain",
+        "in_boolFirstCheck",
+        "out_listMailMessages"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/checkelementexists/checkSignUpTitleInRegisterPage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "tSeqStartTime&Sequence_17",
+        "strSeqName&Sequence_17",
+        "strHideMeRegisterUrl&Sequence_13",
+        "boolSignUpExists&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strSeqName",
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/FackNameGenerator/write/FillFakeNameGeneratorData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFakeNameGenratorUrl&Sequence_4",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strCountry",
+        "in_strNameSet",
+        "strGender",
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/FackNameGenerator/read/readFackNameGenerator.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strTempFirstName&Sequence_8",
+        "strCompany&Sequence_1",
+        "strOccupation&Sequence_1",
+        "strCountryCode&Sequence_1",
+        "strPassword&Sequence_1",
+        "strPhone&Sequence_1",
+        "strBirthday&Sequence_1",
+        "strName&Sequence_1",
+        "strAddress&Sequence_1",
+        "strData&Sequence_8",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "strFakeNameGenratorUrl&Sequence_5",
+        "dtUsersData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "test2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolAddbody&Sequence_1",
+        "boolAdHeader&Sequence_1",
+        "boolLoginButtExists&Sequence_22",
+        "out_strAge&Sequence_3",
+        "strAllData&Sequence_3",
+        "iter&Sequence_3",
+        "arrData&Sequence_3",
+        "strData&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strOccupation",
+        "out_strCountryCode",
+        "out_strPassword",
+        "out_strPhone",
+        "out_strBirthday",
+        "out_strAddress",
+        "out_strName",
+        "out_strCompany",
+        "in_strGender",
+        "in_strNameSet",
+        "in_strCountry"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/FackNameGenerator/welcome/checkWelcomeAlert.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_boolWelcomeAlertExists"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ReqresIn/callReqresInApi.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "apiResContent&Sequence_1",
+        "apiResStatus&Sequence_1",
+        "strReqJsonBody&Sequence_1",
+        "responseContent&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_JsonReqBodyData",
+        "in_strReqDataJsonFilePath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/mail/other/readAttachments.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_dataTable",
+        "in_strAttchmentFullName",
+        "in_strSheetName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/FackNameGenerator/FakeNameMain.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "tempTest.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1",
+        "strConfigFilePath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMeDesktopApp/InitHideMeDesktopApp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "boolCheckIp4TitleExists&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMe/MainHideMe.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strHideMeResetUrl&Sequence_21",
+        "listRestPasswordHideMeMails&Sequence_21",
+        "listHideMeMailResult&Sequence_4",
+        "strRegstrationUrl&Sequence_9",
+        "strHideMePendingUrl&Sequence_14",
+        "boolUsingMail&Sequence_13",
+        "strNewPasswordHideMeUrl&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/HideMeDesktopApp/action/HandleAlert.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolAlertExists&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CallAPI.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "endpoint&Sequence_4",
+        "str_APIResponse&Sequence_4",
+        "str_CurrentCurrency&Sequence_4",
+        "FileParetPath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "out_str_FileFullName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "EquivalentCurrencyAmount.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "apidata&Sequence_5",
+        "tempcheck&Sequence_5",
+        "j_AllCurrency&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_str_TargetCurrency",
+        "in_JsonFullName",
+        "out_d_EquivalentValue"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

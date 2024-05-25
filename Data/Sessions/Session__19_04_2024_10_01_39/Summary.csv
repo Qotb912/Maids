@@ -1,0 +1,2 @@
+﻿Time,Process Name,Error Message,Exception,ScreenShot
+04/19/2024 10:03:18,logout -> Pre Condition -> Pre Condition,Pre Condition Error: Check Hide Me User Name,System.SystemException: Pre Condition Error: Hide Me User Name Is Not Exists Or Not Equal User Name In CSV,./Data/Sessions/Session__19_04_2024_10_01_39/screenshots\ExceptionScreenshot_240419.100318.png
